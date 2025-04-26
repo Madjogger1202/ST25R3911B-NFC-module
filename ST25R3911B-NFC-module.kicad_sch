@@ -3174,6 +3174,376 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PCM_LED_AKL:LED_0402"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LED"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED_0402"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "PCM_LED_SMD_AKL:LED_0402_1005Metric"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SMD LED, 0402, Alternate KiCad Library"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode generic smd 0402"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0402_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27) (xy 1.27 0) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 1.905) (xy 0.254 3.429)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.921) (xy -0.254 3.048)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.921) (xy 0.254 2.794)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 2.794) (xy -0.254 3.048) (xy 0.254 3.429) (xy 0.254 2.794)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.397) (xy 1.27 2.921)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 2.413) (xy 0.762 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 2.413) (xy 1.27 2.286)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.286) (xy 0.762 2.54) (xy 1.27 2.921) (xy 1.27 2.286)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_0402_0_2"
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.159 2.413) (xy -2.286 1.778) (xy -1.6764 1.9812) (xy -2.159 2.413)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 0.889) (xy -2.159 2.413)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 2.794) (xy -1.143 2.159) (xy -0.5334 2.3622) (xy -1.016 2.794)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.889 -0.889) (xy -1.778 0) (xy 0.889 0.889) (xy 0 -1.778) (xy -0.889 -0.889)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 1.27) (xy -1.016 2.794)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.778) (xy 1.778 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_0402_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LED_0402_1_2"
+				(pin passive line
+					(at -2.54 -2.54 0)
+					(length 0)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 2.54 180)
+					(length 0)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "RF_NFC:ST25R3911B-AQF"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4884,6 +5254,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 95.25) (xy 137.16 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06b9cfbf-1c8e-4bc8-83a9-fd99a0ca6b7d")
+	)
+	(wire
+		(pts
 			(xy 82.55 63.5) (xy 86.36 63.5)
 		)
 		(stroke
@@ -4931,6 +5311,16 @@
 			(type default)
 		)
 		(uuid "07d0fb3d-76e6-4642-a8e3-3d3448fdfc6e")
+	)
+	(wire
+		(pts
+			(xy 149.86 96.52) (xy 149.86 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "081a2e73-281e-4f9e-8224-0282ccf7a604")
 	)
 	(wire
 		(pts
@@ -5194,6 +5584,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 104.14) (xy 157.48 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "206b39b0-e283-4604-ad03-1f1e488409ae")
+	)
+	(wire
+		(pts
 			(xy 238.76 102.87) (xy 243.84 102.87)
 		)
 		(stroke
@@ -5321,6 +5721,16 @@
 			(type default)
 		)
 		(uuid "33894adf-8dc1-4fd2-95bb-20bf084d4e21")
+	)
+	(wire
+		(pts
+			(xy 165.1 104.14) (xy 165.1 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35ac6f68-7160-4bde-b83c-591ef6e9920a")
 	)
 	(wire
 		(pts
@@ -5581,6 +5991,16 @@
 			(type default)
 		)
 		(uuid "4be00b2c-5a9c-4b43-8ca6-a86c8ce12775")
+	)
+	(wire
+		(pts
+			(xy 137.16 90.17) (xy 165.1 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c8c8967-78f9-4ddd-ad65-dd06d73aa9ed")
 	)
 	(wire
 		(pts
@@ -5961,6 +6381,16 @@
 			(type default)
 		)
 		(uuid "7033bf59-b6a8-4750-b83d-9c20a93cd654")
+	)
+	(wire
+		(pts
+			(xy 157.48 92.71) (xy 157.48 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7054efcd-20d4-4f34-a238-f2bf352d7f59")
 	)
 	(wire
 		(pts
@@ -6554,6 +6984,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 92.71) (xy 157.48 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b45dfc91-cfcc-4480-8c09-565149987517")
+	)
+	(wire
+		(pts
 			(xy 118.11 166.37) (xy 119.38 166.37)
 		)
 		(stroke
@@ -6651,6 +7091,16 @@
 			(type default)
 		)
 		(uuid "bb356257-7c29-439b-a8d3-bff49b4bf301")
+	)
+	(wire
+		(pts
+			(xy 149.86 104.14) (xy 149.86 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbf88f30-e772-4498-ba5d-d491da618b9b")
 	)
 	(wire
 		(pts
@@ -7054,6 +7504,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 90.17) (xy 165.1 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e940f72c-7c63-4e40-b5cc-3df244d9decb")
+	)
+	(wire
+		(pts
 			(xy 68.58 123.19) (xy 83.82 123.19)
 		)
 		(stroke
@@ -7451,7 +7911,25 @@
 			"X0onSSr26Dd0rOMM+4FKuLeR8yF46bxTaaw6EwkEIokiJi4lp6zZy3jEZMcJxirUeq/r+ruZ8amg"
 			"QkVNgY8/t6yXvrNWhn/mIIRI3afs9V9iJLDvI54/DyZ02Nn7R9T/4DZCzOb4FwzDMKz69dbBFO40"
 			"ypBtqSwBl88/7NLH+6bqSxHqbTiBJGs8z/91Jc61stK9TSnN7lkCUVp/yo67n9h1Xteld/O316Eb"
-			"Jun3cL2Ed681jn7XS/vnV5SksziWzteV8wbHn+f/M67mq7U9M9kAAAAASUVORK5CYII="
+			"Jun3cL2Ed681jn7XS/vnV5SksziWzteV8wbHn+f/M67mq7U9M9kAAAAASUVORK5CYIIAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAA0M+zaO4BAAAAAAAAAAAAAAAAAAAAAAAAOAAAAEEBAAAkFgIAAAAAACQW"
+			"AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQGW5aO4BAAAAAAAAAAAAAAAAAAAAAAAAOAAA"
+			"AEEBAAAiFgIAAAAAACIWAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0Ct/aO4BAAAAAAAA"
+			"AAAAAAAAAAAAAAAAOAAAAEEBAAAcFgIAAAAAABwWAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAUGm5aO4BAAAAAAAAAAAAAAAAAAAAAAAAOAAAAEEBAAAeFgIAAAAAAB4WAgAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAIHy4aO4BAAAAAAAAAAAAAAAAAAAAAAAAOAAAAEEBAAAYFgIAAAAA"
+			"ABgWAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4C1/aO4BAAAAAAAAAAAAAAAAAAAAAAAA"
+			"OAAAAEEBAAAWFgIAAAAAABYWAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYH24aO4BAAAA"
+			"AAAAAAAAAAAAAAAAAAAAOAAAAEEBAAASFgIAAAAAABIWAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAcHe4aO4BAAAAAAAAAAAAAAAAAAAAAAAAOAAAAEEBAAAOFgIAAAAAAA4WAgAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAcIfVbO4BAAAAAAAAAAAAAAAAAAAAAAAAOAAAAEEBAAAMFgIA"
+			"AAAAAAwWAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8H64aO4BAAAAAAAAAAAAAAAAAAAA"
+			"AAAAOAAAAEEBAAAIFgIAAAAAAAgWAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwIXVbO4B"
+			"AAAAAAAAAAAAAAAAAAAAAAAAOAAAAEEBAAAGFgIAAAAAAAYWAgAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAMIC4aO4BAAAAAAAAAAAAAAAAAAAAAAAAOAAAAEEBAAACFgIAAAAAAAIWAgAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAp/aO4BAAAAAAAAAAAAAAAAAAAAAAAAOAAAAEEBAAAA"
+			"FgIAAAAAAAAWAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUMWzaO4BAAAAAAAAAAAAAAAA"
+			"AAAAAAAAOAAAAEEBAAD8FQIAAAAAAPwVAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
 		)
 	)
 	(image
@@ -8580,7 +9058,25 @@
 			"WjYMSfSbh3w5w9neXa2iAXHUreOxRNnUlzT27r7HQ7a4Mj/pgixtx9SVU28XEgAMTSP3ThYG1MLn"
 			"D6Lf8InsJ2cDZ6hHHh7UtsmPU/0gnm9e6v6/eAHDwfur6qFwtXjG+mIKT1Xh7OHnZIkrR4QsfSlm"
 			"uHVUsoa6kr67/khAAjAtPdZM7qDO0HdnN0QzCtV9aFQWz4BnXErR1Sy7MuvrNH1Fl+qFgvP+H1Hv"
-			"Z7CcLPqvnkOPPy6le3Wr13oRQl/h/0W7vdlv7FVvAAAAAElFTkSuQmCC"
+			"Z7CcLPqvnkOPPy6le3Wr13oRQl/h/0W7vdlv7FVvAAAAAElFTkSuQmCC////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"/////////////////////////////////////////////////////////////////////5EHAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADov/////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////lxcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAEIL5////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"//////////////////////////////////////////////////////////////mADwAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAzCl////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////skAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAcuddr//////////////////////////w=="
 		)
 	)
 	(image
@@ -9291,7 +9787,25 @@
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-			"AAAAAAAAAAAAAAAAAA=="
+			"AAAAAAAAAAAAAAAAAND/rMXQ/6zF0P+sxdD/rMXQ/6zF0P+On6b/U1NT/01NTf9LS0v/T09P/1RU"
+			"VP+sxdD/rMXQ/6zF0P+sxdD/rMXQ/6zF0P+sxdD/rMXQ/6zF0P+sxdD/rMXQ/6zF0P+sxdD/rMXQ"
+			"/6zF0P+sxdD/XCva/1sp2/9bKdv/Wynb/1sp2/9bKdv/Wynb/1sp2/9bKdv/Wynb/1sp2/9bKdv/"
+			"Wynb/1sp2/9bKdv/Wynb/1sp2/9bKdv/Wynb/1sp2/9bKdv/Wynb/1sp2/9bKdv/Wynb/1sp2/9b"
+			"Kdv/Wynb/1sp2/9bKdv/Wynb/1wr2v+sxdD/rMXQ/6zF0P+sxdD/rMXQ/6zF0P+sxdD/rMXQ/6zF"
+			"0P+sxdD/rMXQ/6zF0P+sxdD/rMXQ/6zF0P+sxdD/rMXQ/6zF0P+sxdD/rMXQ/6zF0P+sxdD/rMXQ"
+			"/6zF0P+sxdD/rMXQ/6zF0P+sxdD/rMXQ/6zF0P+sxdD/rMXQ/6zF0P+sxdD/rMXQ/6zF0P+sxdD/"
+			"rMXQ/6zF0P+sxdD/rMXQ/6zF0P+sxdD/rMXQ/6zF0P+sxdD/rMXQ/6zF0P+sxdD/rMXQ/6zF0P+s"
+			"xdD/rMXQ/6zF0P+sxdD/rMXQ/6zF0P+sxdD/rMXQ/6zF0P+sxdD/rMXQ/6zF0P+sxdD/rMXQ/6zF"
+			"0P+sxdD/rMXQ/6zF0P+sxdD/rMXQ/6zF0P+sxdD/rMXQ/46fpv9UVFT/VFRU/1RUVP9UVFT/VFRU"
+			"/6zF0P+sxdD/rMXQ/6zF0P+sxdD/rMXQ/6zF0P+sxdD/rMXQ/6zF0P+sxdD/rMXQ/6zF0P+sxdD/"
+			"rMXQ/6zF0P96Zdf/XCva/1sp2/9bKdv/Wynb/1sp2/9bKdv/Wynb/1sp2/9bKdv/Wynb/1sp2/9b"
+			"Kdv/Wynb/1sp2/9bKdv/Wynb/1sp2/9bKdv/Wynb/1sp2/9bKdv/Wynb/1sp2/9bKdv/Wynb/1sp"
+			"2/9bKdv/Wynb/1sp2/9cK9r/e2XX/6zF0P+sxdD/rMXQ/6zF0P+sxdD/rMXQ/6zF0P+sxdD/rMXQ"
+			"/6zF0P+sxdD/rMXQ/6zF0P+sxdD/rMXQ/6zF0P+sxdD/rMXQ/6zF0P+sxdD/rMXQ/6zF0P+sxdD/"
+			"rMXQ/6zF0P+sxdD/rMXQ/6zF0P+sxdD/rMXQ/6zF0P+sxdD/rMXQ/6zF0P+sxdD/rMXQ/6zF0P+s"
+			"xdD/rMXQ/6zF0P+sxdD/rMXQ/6zF0P+sxdD/rMXQ/6zF0P+sxdD/rMXQ/6zF0P+sxdD/rMXQ/6zF"
+			"0P+sxdD/rMXQ/6zF0P+sxdD/rMXQ/6zF0P+sxdD/rMXQ/6zF0P+sxdD/rMXQ/6zF0P+sxdD/rMXQ"
+			"/6zF0P+sxdD/rMXQ/w=="
 		)
 	)
 	(image
@@ -9942,7 +10456,25 @@
 			"IYSQhGFwRQghhCQMgytCCCEkYRhcEUIIIQnD4IoQQghJGAZXhBBCSMIwuCKEEEIShsEVIYQQkjAM"
 			"rgghhJCEYXBFCCGEJAyDK0IIISRhGFwRQgghCcPgihBCCEkYBleEEEJIwjC4IoQQQhKGwRUhhBCS"
 			"MAyuCCGEkIRhcEUIIYQkDIMrQgghJGEYXBFCCCEJw+CKEEIISRgGV4QQQkjCMLgihBBCEvZ/YDwL"
-			"KHs2x18AAAAASUVORK5CYII="
+			"KHs2x18AAAAASUVORK5CYIJUYUFZaGzBRHoLPmhHY0FZaGzBRHoLPmhHY0G3xGzBRHoLPpd1Y0GI"
+			"lmzBRHoLPjkZY0GIlmzBRHoLPjkZY0EqOmzBRHoLPpd1Y0EqOmzBRHoLPmhHY0H7C2zBRHoLPpxU"
+			"YUH7C2zBRHoLPm0mYUEqOmzBRHoLPsuCYUEqOmzBRHoLPsuCYUGIlmzBRHoLPm0mYUGIlmzBRHoL"
+			"PpxUYUEpOmzBRHoLPmdHY0EpOmzBRHoLPmdHY0GIlmzBRHoLPpxUYUGIlmzBRHoLPpxUYUE9U2vB"
+			"RHoLPpxUYUHf9mrBRHoLPmhHY0Hf9mrBRHoLPmhHY0E9U2vBRHoLPpd1Y0EOJWvBRHoLPjkZY0EO"
+			"JWvBRHoLPjkZY0GwyGrBRHoLPpd1Y0GwyGrBRHoLPmhHY0GBmmrBRHoLPpxUYUGBmmrBRHoLPm0m"
+			"YUGwyGrBRHoLPsuCYUGwyGrBRHoLPsuCYUEOJWvBRHoLPm0mYUEOJWvBRHoLPpxUYUGvyGrBRHoL"
+			"PmdHY0GvyGrBRHoLPmdHY0EOJWvBRHoLPpxUYUEOJWvBRHoLPpxUYUHD4WnBRHoLPpxUYUFlhWnB"
+			"RHoLPmhHY0FlhWnBRHoLPmhHY0HD4WnBRHoLPpd1Y0GUs2nBRHoLPjkZY0GUs2nBRHoLPjkZY0E1"
+			"V2nBRHoLPpd1Y0E1V2nBRHoLPmhHY0EGKWnBRHoLPmhHY0FkhWnBRHoLPpxUYUFkhWnBRHoLPpxU"
+			"YUEGKWnBRHoLPm0mYUE1V2nBRHoLPsuCYUE1V2nBRHoLPsuCYUGUs2nBRHoLPm0mYUGUs2nBRHoL"
+			"PpxUYUE1V2nBRHoLPmdHY0E1V2nBRHoLPmdHY0GUs2nBRHoLPpxUYUGUs2nBRHoLPpxUYUFJcGjB"
+			"RHoLPpxUYUHrE2jBRHoLPmhHY0HrE2jBRHoLPmhHY0FJcGjBRHoLPpd1Y0EaQmjBRHoLPjkZY0Ea"
+			"QmjBRHoLPjkZY0G75WfBRHoLPpd1Y0G75WfBRHoLPmhHY0GMt2fBRHoLPmhHY0HqE2jBRHoLPpxU"
+			"YUHqE2jBRHoLPpxUYUGMt2fBRHoLPm0mYUG75WfBRHoLPsuCYUG75WfBRHoLPsuCYUEaQmjBRHoL"
+			"Pm0mYUEaQmjBRHoLPpxUYUG75WfBRHoLPmdHY0G75WfBRHoLPmdHY0EaQmjBRHoLPpxUYUEaQmjB"
+			"RHoLPpxUYUHP/mbBRHoLPpxUYUFxombBRHoLPmhHY0FxombBRHoLPmhHY0HP/mbBRHoLPpd1Y0Gg"
+			"0GbBRHoLPjkZY0Gg0GbBRHoLPjkZY0FBdGbBRHoLPpd1Y0FBdGbBRHoLPmhHY0ESRmbBRHoLPmhH"
+			"Y0FwombBRHoLPpxUYUFwog=="
 		)
 	)
 	(image
@@ -11231,7 +11763,25 @@
 			"Pwrll4HhOIfLRR3FrK2rrqktLK342YEgXVsti0UkECsY1T87EARBkI5HEPZz8wSBQNB8qVACgaCc"
 			"ziAQ0M22VghAwOXyxCld+XcwOwKHyyWTySQiOmGQduHz+UAAMgnN+4MgyC9IIBAo0eSapGjfkZwh"
 			"CIIgCIIg/zV0VwNBEARBEKQTQckZgiAIgiBIJ4KSMwRBEARBkE7kf3QDRcxZ89+tAAAAAElFTkSu"
-			"QmCC"
+			"QmCCgD/zElpBcrtzwT9VGT4AAAAAAAAAAASxWkHoeXPBP1UZPgAAgD8AAAAABLFaQfz8c8E/VRk+"
+			"AAAAAAAAgD+38lpBcrtzwT9VGT4AAAAAAAAAAI7yWkFyu3PBP1UZPgAAgD8AAAAAem9aQXK7c8E/"
+			"VRk+AAAAAAAAgD8EsVpBJf1zwT9VGT4AAAAAAAAAAHpvWkGmyHHBP1UZPgAAgD8AAAAAjvJaQabI"
+			"ccE/VRk+AAAAAAAAgD8EsVpB84ZxwT9VGT4AAAAAAAAAAASxWkEch3HBP1UZPgAAgD8AAAAABLFa"
+			"QTAKcsE/VRk+AAAAAAAAgD+38lpBpshxwT9VGT4AAAAAAAAAAKZUWkEwCnLBP1UZPgAAgD8AAAAA"
+			"plRaQRyHccE/VRk+AAAAAAAAgD/zElpBpshxwT9VGT4AAAAAAAAAABwTWkGmyHHBP1UZPgAAgD8A"
+			"AAAAMJZaQabIccE/VRk+AAAAAAAAgD+mVFpB84ZxwT9VGT4AAAAAfgAAfptCrgAgXP987gEAAOD8"
+			"QQvvAQAAHBNaQXK7c8E/VRk+AAAAAAAAgD+mVFpBJf1zwT9VGT4AAAAAAAAAACDGW0H8/HPBP1UZ"
+			"PgAAgD8AAAAAIMZbQeh5c8E/VRk+AAAAAAAAgD9thFtBcrtzwT9VGT4AAAAAAAAAAH4iXEHoeXPB"
+			"P1UZPgAAgD8AAAAAfiJcQfz8c8E/VRk+AAAAAAAAgD8xZFxBcrtzwT9VGT4AAAAAAAAAAAhkXEFy"
+			"u3PBP1UZPgAAgD8AAAAA9OBbQXK7c8E/VRk+AAAAAAAAgD9+IlxBJf1zwT9VGT4AAAAAAAAAAPTg"
+			"W0GmyHHBP1UZPgAAgD8AAAAACGRcQabIccE/VRk+AAAAAAAAgD9+IlxB84ZxwT9VGT4AAAAAAAAA"
+			"AH4iXEEch3HBP1UZPgAAgD8AAAAAfiJcQTAKcsE/VRk+AAAAAAAAgD8xZFxBpshxwT9VGT4AAAAA"
+			"AAAAACDGW0EwCnLBP1UZPgAAgD8AAAAAIMZbQRyHccE/VRk+AAAAAAAAgD9thFtBpshxwT9VGT4A"
+			"AAAAAAAAAJaEW0GmyHHBP1UZPgAAgD8AAAAAqgdcQabIccE/VRk+AAAAAAAAgD8gxltB84ZxwT9V"
+			"GT4AAAAAAAAAAKoHXEFyu3PBP1UZPgAAgD8AAAAAloRbQXK7c8E/VRk+AAAAAAAAgD8gxltBJf1z"
+			"wT9VGT4AAAAAAAAAAJo3XUH8/HPBP1UZPgAAgD8AAAAAmjddQeh5c8E/VRk+AAAAAAAAgD/n9VxB"
+			"crtzwT9VGT4AAAAAAAAAAPiTXUHoeXPBP1UZPgAAgD8AAAAA+JNdQfz8c8E/VRk+AAAAAAAAgD+r"
+			"1Q=="
 		)
 	)
 	(image
@@ -12620,7 +13170,25 @@
 			"oGmaIP7zHYE+D0XRDAYw8BWFEPoeMQlmLwebhm1bx4qsCAHQNI0fnAghhNDXgBkYQgghhFBjw5n4"
 			"CCGEEEKNDTMwhBBCCKHGhhkYQgghhFBjwwwMIYQQQqixYQaGEEIIIdTYMANDCCGEEGpsmIEhhBBC"
 			"CDU2zMAQQgghhBobZmAIIYQQQo0NMzCEEEIIocaGGRhCCCGEUGPDDAwhhBBCqLH9H37/KQcRgqE0"
-			"AAAAAElFTkSuQmCC"
+			"AAAAAElFTkSuQmCCAAAAAABi5Q8+lj4pP1IVyz8EEX1/JSQk/zs7O/8AAAAAAAAAAAffVT6QjiQ/"
+			"UhXLPwYTfX8lJCT/Ozs7/wAAAAAAAAAA5QcVPq1ILz/5zck/DUplfyUkJP87Ozv/AAAAAAAAAABi"
+			"5Q8+lj4pP1IVyz8EEX1/JSQk/zs7O/8AAAAAAAAAAA4cFD5MOiI/BIXLPwQQfX8lJCT/Ozs7/wAA"
+			"AAAAAAAAB99VPpCOJD9SFcs/BhN9fyUkJP87Ozv/AAAAAAAAAAA12BU/ZAatvlIVyz8P931/JSQk"
+			"/zs7O/8AAAAAAAAAAK/rFT9tZZC+BIXLPw/5fX8lJCT/Ozs7/wAAAAAAAAAACOUMP3MPsb4Ehcs/"
+			"Dvd9fyUkJP87Ozv/AAAAAAAAAABFx/++AQkOP1gIwj+rWB5/JSQk/zs7O/8AAAAAAAAAAG214b6k"
+			"VBs/Obi+P7FhEH8lJCT/Ozs7/wAAAAAAAAAAHnkAv/euDj85uL4/qFkQfyUkJP87Ozv/AAAAAAAA"
+			"AAA12BU/ZAatvlIVyz8P931/JSQk/zs7O/8AAAAAAAAAAAjlDD9zD7G+BIXLPw73fX8lJCT/Ozs7"
+			"/wAAAAAAAAAA/foLP3hny75SFcs/EPV9fyUkJP87Ozv/AAAAAAAAAACPHAm/Z+n2vkjFxz+/wFd/"
+			"JSQk/zs7O/8AAAAAAAAAAONDFb/g5Ni+SMXHP7bHVX8lJCT/Ozs7/wAAAAAAAAAAcCIMvwVb/L6f"
+			"HsU/srM/fyUkJP87Ozv/AAAAAAAAAACPHAm/Z+n2vkjFxz+/wFd/JSQk/zs7O/8AAAAAAAAAAHAi"
+			"DL8FW/y+nx7FP7KzP38lJCT/Ozs7/wAAAAAAAAAABVv8vnAiDL+fHsU/uqw/fyUkJP87Ozv/AAAA"
+			"AAAAAAA12BU/ZAatvlIVyz8P931/JSQk/zs7O/8AAAAAAAAAAP36Cz94Z8u+UhXLPxD1fX8lJCT/"
+			"Ozs7/wAAAAAAAAAABDEbPxwzs775zck/Q95lfyUkJP87Ozv/AAAAAAAAAABFx/++AQkOP1gIwj+r"
+			"WB5/JSQk/zs7O/8AAAAAAAAAABWv4L4IoBo/WAjCP7VhHn8lJCT/Ozs7/wAAAAAAAAAAbbXhvqRU"
+			"Gz85uL4/sWEQfyUkJP87Ozv/AAAAAAAAAACtSC8/5QcVvvnNyT9L82V/JSQk/zs7O/8AAAAAAAAA"
+			"AOFtKj/BgF2++c3JP0ntZX8lJCT/Ozs7/wAAAAAAAAAAnngvP30OZL5Ixcc/WuhVfyUkJP87Ozv/"
+			"AAAAAAAAAACtSC8/5QcVvvnNyT9L82V/JSQk/zs7O/8AAAAAAAAAAJ54Lz99DmS+SMXHP1roVX8l"
+			"JCT/Ozs7/wAAAA=="
 		)
 	)
 	(global_label "RFI2"
@@ -14147,6 +14715,73 @@
 			(project "ST25R3911B-NFC-module"
 				(path "/e2ba1fa3-0730-4c7c-8145-824d6eadd2c2"
 					(reference "C36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 165.1 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "10dee9b4-cb9f-4c38-8cce-768b3927b7ee")
+		(property "Reference" "#PWR053"
+			(at 165.1 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 165.1 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 165.1 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bf9dbc0d-e61e-47c6-b768-220db2e6eb07")
+		)
+		(instances
+			(project "ST25R3911B-NFC-module"
+				(path "/e2ba1fa3-0730-4c7c-8145-824d6eadd2c2"
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -15978,6 +16613,73 @@
 			(project "ST25R3911B-NFC-module"
 				(path "/e2ba1fa3-0730-4c7c-8145-824d6eadd2c2"
 					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 165.1 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "495a78f7-65e3-4047-b5ff-7740380c04f1")
+		(property "Reference" "R24"
+			(at 167.64 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "200R"
+			(at 167.894 100.838 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
+			(at 163.322 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 165.1 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "91c5d822-3d50-4de4-bfda-68dfd068a108")
+		)
+		(pin "1"
+			(uuid "b5c58235-5c60-45aa-a886-a0850fa75a16")
+		)
+		(instances
+			(project "ST25R3911B-NFC-module"
+				(path "/e2ba1fa3-0730-4c7c-8145-824d6eadd2c2"
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -19630,6 +20332,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 157.48 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9eabb493-d4a0-4126-bd21-dfdd46a95123")
+		(property "Reference" "R23"
+			(at 160.02 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "200R"
+			(at 160.274 100.838 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
+			(at 155.702 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 157.48 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "16600447-aa63-4fa8-82ab-e7a26f0a25c1")
+		)
+		(pin "1"
+			(uuid "292d724c-1298-49f3-a00e-ba5ee7478e33")
+		)
+		(instances
+			(project "ST25R3911B-NFC-module"
+				(path "/e2ba1fa3-0730-4c7c-8145-824d6eadd2c2"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 128.27 52.07 0)
 		(unit 1)
@@ -20571,6 +21340,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:Earth")
+		(at 157.48 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b44de136-252a-4cdf-a9a8-870a8943b8ed")
+		(property "Reference" "#PWR052"
+			(at 157.48 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 157.48 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 157.48 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fcdfe72b-6f7b-4bc8-9dbb-14c18876725d")
+		)
+		(instances
+			(project "ST25R3911B-NFC-module"
+				(path "/e2ba1fa3-0730-4c7c-8145-824d6eadd2c2"
+					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 59.69 80.01 0)
 		(unit 1)
@@ -21305,6 +22141,211 @@
 			(project "ST25R3911B-NFC-module"
 				(path "/e2ba1fa3-0730-4c7c-8145-824d6eadd2c2"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_LED_AKL:LED_0402")
+		(at 149.86 109.22 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cd621c83-9a41-420f-b387-c1cb94987681")
+		(property "Reference" "LED1"
+			(at 150.368 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED_0402"
+			(at 150.114 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+			(at 149.86 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD LED, 0402, Alternate KiCad Library"
+			(at 149.86 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92998904-fb09-4ba6-bf56-6d66770ea4cf")
+		)
+		(pin "2"
+			(uuid "b9032919-2410-4fd9-acca-28646c6306ba")
+		)
+		(instances
+			(project ""
+				(path "/e2ba1fa3-0730-4c7c-8145-824d6eadd2c2"
+					(reference "LED1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 149.86 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cfcdcec0-141b-4bf3-ba93-d66ac142b106")
+		(property "Reference" "#PWR051"
+			(at 149.86 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 149.86 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 149.86 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3634cf0f-7f80-4c9a-a244-ed0d1ce507cd")
+		)
+		(instances
+			(project "ST25R3911B-NFC-module"
+				(path "/e2ba1fa3-0730-4c7c-8145-824d6eadd2c2"
+					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_LED_AKL:LED_0402")
+		(at 157.48 109.22 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d0dd00db-f357-417a-ad51-50ee134bb68c")
+		(property "Reference" "LED2"
+			(at 157.988 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED_0402"
+			(at 157.734 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+			(at 157.48 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD LED, 0402, Alternate KiCad Library"
+			(at 157.48 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b34a59c7-e9fe-4055-a4c5-9809bfcce4af")
+		)
+		(pin "2"
+			(uuid "998235f1-5e79-4f28-8628-991a3e225b90")
+		)
+		(instances
+			(project "ST25R3911B-NFC-module"
+				(path "/e2ba1fa3-0730-4c7c-8145-824d6eadd2c2"
+					(reference "LED2")
 					(unit 1)
 				)
 			)
@@ -22323,28 +23364,28 @@
 			)
 		)
 		(pin "8"
-			(uuid "04ce6d9f-2cc7-4663-9791-4fd3f8c71cc1")
+			(uuid "04ce6d9f-2cc7-4663-9791-4fd3f8c71cc2")
 		)
 		(pin "3"
-			(uuid "b691a4a7-89f3-41a0-b518-b11af419f979")
+			(uuid "b691a4a7-89f3-41a0-b518-b11af419f97a")
 		)
 		(pin "2"
-			(uuid "8c2a38d4-2307-4c1b-82ed-5dcf8cca0964")
+			(uuid "8c2a38d4-2307-4c1b-82ed-5dcf8cca0965")
 		)
 		(pin "5"
-			(uuid "50978cd1-91f2-4fa2-a5ca-6d9e4a8b2ac8")
+			(uuid "50978cd1-91f2-4fa2-a5ca-6d9e4a8b2ac9")
 		)
 		(pin "4"
-			(uuid "ce59f68c-5950-4ec2-96fc-326884765edb")
+			(uuid "ce59f68c-5950-4ec2-96fc-326884765edc")
 		)
 		(pin "1"
-			(uuid "79dac344-134b-4fd0-ab37-297935053ebd")
+			(uuid "79dac344-134b-4fd0-ab37-297935053ebe")
 		)
 		(pin "7"
-			(uuid "2635c7e7-5771-436b-af1c-c2485b95b4ae")
+			(uuid "2635c7e7-5771-436b-af1c-c2485b95b4af")
 		)
 		(pin "6"
-			(uuid "8bbfec61-a57f-4e1f-b32a-9dc8f7cd7803")
+			(uuid "8bbfec61-a57f-4e1f-b32a-9dc8f7cd7804")
 		)
 		(instances
 			(project ""
@@ -22695,6 +23736,75 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_LED_AKL:LED_0402")
+		(at 165.1 109.22 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ed39e19b-ccab-4893-afe7-9b5e4bc59d0a")
+		(property "Reference" "LED3"
+			(at 165.608 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED_0402"
+			(at 165.354 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+			(at 165.1 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD LED, 0402, Alternate KiCad Library"
+			(at 165.1 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8fbb1e88-e6b6-45d2-bc6d-c6e46cfae541")
+		)
+		(pin "2"
+			(uuid "3f4b5956-e40f-40aa-bc7a-ac9845bc8572")
+		)
+		(instances
+			(project "ST25R3911B-NFC-module"
+				(path "/e2ba1fa3-0730-4c7c-8145-824d6eadd2c2"
+					(reference "LED3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 114.3 48.26 0)
 		(unit 1)
@@ -22895,6 +24005,73 @@
 			(project "ST25R3911B-NFC-module"
 				(path "/e2ba1fa3-0730-4c7c-8145-824d6eadd2c2"
 					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 149.86 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f7446432-0f09-4201-b0b8-4b92fc124df9")
+		(property "Reference" "R22"
+			(at 152.4 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "200R"
+			(at 152.654 100.838 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
+			(at 148.082 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 149.86 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "32f9a0c8-87c5-42cf-b61d-744688219670")
+		)
+		(pin "1"
+			(uuid "01f1f67e-4a7b-4f1c-a24e-49e0a5785bab")
+		)
+		(instances
+			(project "ST25R3911B-NFC-module"
+				(path "/e2ba1fa3-0730-4c7c-8145-824d6eadd2c2"
+					(reference "R22")
 					(unit 1)
 				)
 			)

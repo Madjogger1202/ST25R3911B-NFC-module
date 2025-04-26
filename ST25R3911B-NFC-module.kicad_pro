@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.127
         }
       },
       "diff_pair_dimensions": [
@@ -186,7 +186,10 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.3,
+        0.4,
+        0.8
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -480,7 +483,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.3,
+        "track_width": 0.127,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
@@ -489,7 +492,13 @@
     "meta": {
       "version": 4
     },
-    "net_colors": null,
+    "net_colors": {
+      "+3.3V": "rgb(255, 255, 0)",
+      "+3.3V_LDO": "rgb(255, 153, 0)",
+      "+5V DOMAIN": "rgb(255, 0, 255)",
+      "+5V USB": "rgb(0, 255, 255)",
+      "Earth": "rgb(255, 255, 194)"
+    },
     "netclass_assignments": null,
     "netclass_patterns": []
   },
